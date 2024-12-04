@@ -1,0 +1,65 @@
+.task-calendar {
+    margin-top: 100px;
+    min-width: 300px;
+}
+
+
+
+.react-calendar-heatmap {
+  padding: 10px; /* Adds space around the entire heatmap */
+  overflow: visible; /* Ensures strokes are not clipped */
+
+}
+
+.calendar-heatmap-container svg {
+    width: 90%;
+    height: auto;
+    transform: scale(2); /* Adjust scale as needed */
+    transform: translateY(-60px) translateX(60px) scale(1.2); /* Moves the heatmap 50px to the right */
+}
+
+
+.react-calendar-heatmap rect {
+  rx: 2px; /* Adjust as needed */
+  ry: 2px;
+  box-sizing: border-box;
+}
+
+.react-calendar-heatmap text {
+  font-size: 4.5px;
+}
+
+
+.react-calendar-heatmap .color-empty {
+  fill: none;
+}
+.react-calendar-heatmap .color-scale-0 { 
+  fill: #333;
+
+}
+
+.react-calendar-heatmap .color-filled {
+  fill: #d6e685;
+}
+
+.react-calendar-heatmap .color-scale-1 { fill: #d6e685; }
+.react-calendar-heatmap .color-scale-2 { fill: #8cc665; }
+.react-calendar-heatmap .color-scale-3 { fill: #44a340; }
+
+.react-calendar-heatmap .color-scale-4 { fill: #FFD757; }
+.react-calendar-heatmap .color-scale-5 { fill: #E5811F; }
+.react-calendar-heatmap .color-scale-6 { fill: #FF0000; }
+
+
+.calendar-tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  transform: translate(-50%, -100%);
+  white-space: nowrap;
+  /* Adjust positioning as needed */
+}

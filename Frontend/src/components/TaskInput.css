@@ -1,0 +1,19 @@
+
+.hidden-datepicker-input {
+    position: absolute;
+    transform: translate(-204px, 15px); /* Fine-tune horizontal and vertical position */
+    opacity: 0; /* Make input fully transparent */
+    height: 0; 
+    pointer-events: none; /* Prevent interaction */
+}
+
+/* This will apply a red background to overdue tasks */
+.task-past-due {
+    background-color: red;  /* Red background for overdue tasks */
+    color: white;  /* White text for better visibility */
+}
+  
+.task-past-due input {
+    color: white;  /* Ensure text is visible in the input field */
+}
+  

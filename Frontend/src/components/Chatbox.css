@@ -1,0 +1,89 @@
+/* Chatbox container styles */
+.chat-container {
+    background-color: #292929;
+    color: #fff; /* White text */
+    border: 1px solid #333; /* Optional: Dark border for better visibility */
+    border-radius: 8px; /* Optional: Rounded corners */
+    padding: 10px; /* Inner padding */
+    height: 300px; /* Example height */
+    overflow-y: auto; /* Ensure the scrollbar appears for overflow content */
+  }
+  
+  /* Style individual messages */
+  .chat-container .message {
+    margin: 5px 0; /* Spacing between messages */
+    color: #fff; /* Ensure all messages have white text */
+  }
+  
+  /* Input container styles */
+  .input-container {
+    background-color: black;
+    color: #fff; /* White input text */
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #333; /* Separator between messages and input */
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    background-color: black;
+  }
+  
+  .input-container button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+/* Custom scrollbar styling for chatbox */
+.chat-container::-webkit-scrollbar {
+    width: 8px; /* Scrollbar width */
+  }
+  
+  .chat-container::-webkit-scrollbar-track {
+    background: #1C1C1C; /* Scrollbar track color */
+    border-radius: 8px; /* Match the container's corners */
+  }
+  
+  .chat-container::-webkit-scrollbar-thumb {
+    background-color: #5A5A5A; /* Scrollbar handle color */
+    border-radius: 8px; /* Rounded scrollbar handle */
+    border: 2px solid #292929; /* Adds spacing around the thumb */
+  }
+  
+  .chat-container::-webkit-scrollbar-thumb:hover {
+    background-color: #767676; /* Lighter on hover for interactivity */
+  }
+
+  /* Ensure task-list container starts from the left */
+.task-list {
+  text-align: left;
+}
+
+/* Ensure the unordered list aligns its items to the left */
+.task-list ul {
+  list-style-position: inside; /* Make sure bullets or numbers are aligned with the text */
+  padding-left: 0; /* Remove any left padding */
+}
+
+/* If using numbered tasks, ensure proper left alignment of the list items */
+.task-list li {
+  text-align: left; /* Align text to the left inside list items */
+}

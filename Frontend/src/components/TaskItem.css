@@ -1,0 +1,79 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Wrapper for shadows */
+
+/* Main Task styling */
+.task{
+    position: relative;
+    border-radius: 100px;
+    padding: 4px;
+    background-color: #292929; /* Green background */
+    z-index: 2; /* Keeps the green rectangle on top */
+    min-height: 40px;
+      display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center the content */
+}
+
+.task.completed {
+    background-color: #8CC63F;
+}
+
+.task-completed-overlay{
+    position: relative;
+}
+
+.task-completed-overlay:has(.completed)::before,
+.task-completed-overlay:has(.completed)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100px;
+    z-index: 0; /* Places shadows behind the green */
+}
+
+/* Pink shadow */
+.task-completed-overlay:has(.completed)::before {
+    background-color: #e91e63; /* Pink color */
+    transform: translate(-8px, 5px); /* Bottom-left offset */
+}
+
+/* Yellow shadow */
+.task-completed-overlay:has(.completed)::after {
+    background-color: #ffeb3b; /* Yellow color */
+    transform: translate(5px, -8px); /* Top-right offset */
+}
+
+.hidden-datepicker {
+    position: absolute;
+    transform: translate(-157px, 10px); /* Fine-tune horizontal and vertical position */
+    opacity: 0; /* Make input fully transparent */
+    height: 0; 
+    pointer-events: none; /* Prevent interaction */
+}
+
+
+.checkbox-round {
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-round:hover {
+    background-color: gray;
+}
+
+
+.checkbox-round:checked {
+    background-color: gray;
+}

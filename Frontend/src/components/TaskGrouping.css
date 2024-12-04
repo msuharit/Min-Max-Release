@@ -1,0 +1,14 @@
+/* General task list container */
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px; /* Optional: padding for spacing */
+  }
+  
+  /* Line-through for completed tasks */
+  .text-line-through {
+    text-decoration: line-through;
+    color: #333333;
+  }
+  

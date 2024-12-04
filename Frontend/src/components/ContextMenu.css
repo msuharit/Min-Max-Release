@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.context-menu {
+    position: absolute;
+    background-color: #1C1C1C;
+    z-index: 1000;
+    border-radius: 4px;
+    border: 1.5px solid #333333;
+    padding: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+    color: #ffffff;
+}
+
+.context-menu ul {
+    list-style: none; /* Removes bullet points */
+    padding: 10px; /* Adds padding */
+    margin: 0; /* Removes default margin */
+}
+
+.context-menu li {
+    padding: 8px; /* Adds padding to each menu item */
+    cursor: pointer; /* Changes cursor to pointer for better UX */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.context-menu li:hover {
+    background-color: #f0f0f0; /* Change background on hover for feedback */
+}
+
+
+/* Unstyled list */
+.context-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styled menu items */
+.context-menu li {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Color-coded menu items */
+.context-menu li.edit {
+    color: #007bff; /* Blue for Edit */
+}
+
+.context-menu li.complete {
+    color: #28a745; /* Green for Complete */
+}
+
+.context-menu li.delete {
+    color: #dc3545; /* Red for Delete */
+}
+
+/* Hover effects */
+.context-menu li:hover {
+    background-color: #3AA7FA;
+}
+
+.context-menu li.edit:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.context-menu li.complete:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.context-menu li.delete:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Smooth fade-in for the context menu */
+.context-menu.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
