@@ -1,0 +1,34 @@
+﻿CSE 115A – Introduction to Software Engineering Release Summary 
+The Release Summary document contains the following elements: 
+  
+Heading: Document name ("Release Summary"),productname, team name, date. 
+Key user stories and acceptance criteria: Give a list of key user stories with their acceptance  criteria that can serve as a guide for an acceptance test. 
+* As a user, I want to be able to manipulate my tasks to accurately track what I need to do.
+   * Acceptance criteria: Changes to tasks are saved in the backend 
+* As a user, I want to be able to log in to the website so that I can keep my information personalized. [3]
+   * Acceptance criteria: Login verifies user 
+* As a user, I want to see a graph visualization of my completed, opened, and unfinished tasks so that I can have better habits in completing tasks. [13] 
+   * Acceptance criteria: Graph correctly changes based on completed and unfinished tasks
+
+
+Known Problems: List the major bugs (you can reference your Test Report), omissions (missing  functionality, edge cases that are not handled), design shortcuts (e.g. hard coded data), etc.   
+* Hard coded global task name as “Tasks”
+* Hard coded colors
+* Hard coded gpt 4.0 key
+* Hard coded firebase key
+* User passwords stored as strings
+* The multiple todolists does not work for empty tasks and auto delete itself it the webpage updates
+* If a task is updated during the search function the search does not accurately represent the data
+* The graph when resized does not properly flex
+* Ai chat requires gpt 4.0 and costs money
+* When you edit tasks the text box does not fully extend to border 
+  
+Product Backlog: Provide a list the high priority user stories and bug fixes that can serve as a  guide for a follow-on project. 
+
+
+Fixing the todolists not working on empty tasks
+Fixing the graph to flex properly so it can work for a mobile app
+Adjust the size of the window to work with any window size
+
+
+Note: There will be no penalty for system failures during the project review that are due to known problems.

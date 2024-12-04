@@ -1,0 +1,105 @@
+﻿Sprint 4 Plan - Min-Max-List
+Team Name: The Scribes 
+Sprint completion: 12/03/24
+Revision Date: 12/03/24
+Revision Number: 1
+∙ Goal: Short, 1-2 sentence description of the high-level goal(s) for the sprint. 
+* Increase the UI quality of both login and todolist pages. Add some finishing touches to the webapp.
+∙ Task listing, organized by user story: This section lists the user stories, in priority order from  most important (top) to least important (bottom). Within each user story, there needs to be a  list of tasks required to implement the user story, along with the time estimate for each task (preferably less than or equal to 6 ideal hours). This should look like: 
+As a user I want to be able to search for tasks [4]
+* Add a search bar to the TodoPage: 1 hour
+* Implement a filter based on the query: 2 hours
+Total time to complete user story: 3 hours
+As a user I want to be able to have detailed information related to tasks [4]
+* Have a context menu that gives detailed information about each task: 3 hours
+* Be able to edit information about the task: 1 hour
+Total time to complete user story: 4 hours
+As a user I want to see a summary about my progress on tasks [4]
+* Show statistic related to task completion rate (1hour)
+* Show statistic related to task non-completion rate (1hour)
+* Show statistic for task completion rate for days that have all tasks completed (1hour)
+Total time to complete user story: 3 hours
+
+
+As a user, I want to ask the AI to recommend steps for completing tasks [13]
+* Add a chatbox that links to chat gpt( 5 hours)
+* Have the chat box only accept text that starts with “Split into smaller tasks how would I ” (1 hours)
+* Have the chat box return the chat gpt string ( 3 hours)
+* Show the string to the user for permission to create the task ( 2 hours)
+* Give chatbox capabilities of creating task etc (1 Hour)
+* Create the task based on the chat gpt string (1 hour)
+Total Time to complete user story: 13 hours
+Team roles: 
+Jin: Product Owner {Fourth Scrum Master}
+Ben: Software Engineer
+Pujitha: Software Engineer 
+Aniqa: Software Engineer  {Fourth Scrum Master}
+Matthew: Software Engineer
+
+
+Initial task assignment: 
+Jin: Show statistic related to task completion rate
+Matthew: Add a chatbox that links to chat gpt
+Pujitha: Show statistic for task completion rate for days that have all tasks completed 
+Aniqa: Show statistic related to task non-completion rate
+Ben: Add a search bar to the TodoPage
+∙ Initial burnup chart:
+  
+
+∙ Initial scrum board: Also known as a task board, the scrum board is a physical board labeled  as such with sprint number and project name and located in the lab. This board has four  columns, titled user stories, tasks not started, tasks in progress, and tasks completed. Index  cards or post-it notes representing the user stories and the tasks for this sprint should be placed  in the user stories, tasks not started, and tasks in progress columns. Tasks associated with a user  story should be placed in the same row as the user story.
+Scrum Board
+User Stories
+	Tasks not started
+	Tasks in progress
+	Tasks completed
+	As a user I want to be able to search for tasks [4]
+
+
+	* Add a search bar to the TodoPage: 1 hour
+* Implement a filter based on the query: 2 hours
+	
+
+	
+
+	As a user I want to be able to have detailed information related to tasks [4]
+
+
+	* Have a context menu that gives detailed information about each task: 3 hours
+* Be able to edit information about the task: 1 hour
+	
+
+
+
+	
+
+	As a user I want to see a summary about my progress on tasks [4]
+
+
+	* Show statistic related to task completion rate (1hour)
+* Show statistic related to task non-completion rate (1hour)
+* Show statistic for task completion rate for days that have all tasks completed (1hour)
+	
+
+
+
+	
+
+
+
+	As a user, I want to ask the AI to recommend steps for completing tasks [13]
+
+
+	* Add a chatbox that links to chat gpt( 5 hours)
+* Have the chat box only accept text that starts with “Split into smaller tasks how would I ” (1 hours)
+* Have the chat box return the chat gpt string ( 3 hours)
+* Show the string to the user for permission to create the task ( 2 hours)
+* Give chatbox capabilities of creating task etc (1 Hour)
+	
+
+	
+
+	
+
+∙ Scrum times: List at least the three days and times during the week when your team will meet  and conduct Scrum meetings. Also, indicate which of these meetings will have the TA/tutor visit  as arranged with the TA/tutor. It is expected the TA/tutor will visit during the Scrum meeting  during your lab time. 
+* Tuesday, Thursday: 7:00PM - 7:15PM
+* Sunday: 8:00PM-8:15PM

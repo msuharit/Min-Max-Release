@@ -1,0 +1,45 @@
+﻿Test Plan and Report  
+Product Name: Min-Max-List
+Team Name: The Scribes
+Date: 12/3/2024
+
+
+System Test scenarios:
+User story 1: I want to be able to login to an account to access a task database
+Click the button “sign up”
+Enter username, email, and password
+Click create account <pass>
+
+
+User Story 2: As a registered user I want to be able to modify a task description
+Right click on a task
+Select edit  from context menu 
+Type description for task
+Press enter <pass>
+
+
+User Story 3: As a registered user I want to be able to filter to find a specific task by task description
+Select the  search text box on the top left
+Type out your tasks description
+User should see only tasks with that task description <pass>
+
+
+User Story 4: As a registered user I want to be able to show tasks completed on the date 12/3/2024
+Click uncompleted button on graph to toggle to completed graph mode
+Click on the box in a grid that represents 12/3/2024
+User should see only the tasks completed on the date 12/3/2024  <pass>
+
+
+User Story 5: As a registered user with a task I want to be able to see a graph of my completed tasks
+Click the ticker on the task to switch it to completed tasks
+Observe the green box on the right hand side of the screen <pass>
+
+
+User Story 5: As a registered user I want to be able to enter a task with a due date on the 12/3/2024 and an alarm date on 12/4/2024 with the description “dragon” 
+Click on bottom task input bar
+Enter description of “dragon”
+Click calendar button
+Enter due date on graph widget of 12/3/2024
+Click alarm button 
+Enter alarm date on graph widget of 12/4/2024
+Press enter <pass>

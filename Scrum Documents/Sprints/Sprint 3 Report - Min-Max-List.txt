@@ -1,0 +1,30 @@
+﻿Sprint 3 Report - Min-Max-List
+Team Name: The Scribes 
+Date: 11/19/24
+• Actions to stop doing:
+* Delaying until the last minute to get tasks done
+* Showing up late
+• Actions to start doing:
+* Regularly attend scrum meetings. Attend scrum meetings on time. 
+• Actions to keep doing:
+* Giving ideas for project
+* Using Discord as a communication hub
+• Work completed/not completed: 
+* Completed
+   * As a user, I want to be able to schedule when a task should be completed by and be penalized if I don't have it finished [5]
+   * As a user, I want multiple to do lists to categorize and filter tasks so that I can be more organized [5]
+* Not Completed
+   * As a user, I want to be rewarded for completing tasks [5] 
+• Work completion rate:
+*  Total number of user  stories completed during the prior sprint
+   * 2
+* Total number of estimated ideal work hours completed during the prior sprint
+   * 28
+* Total number of days during the prior sprint.
+   * 12
+* For the previous sprint, the user stories/day and ideal work hours/day figures should be reported
+   * hours/day: 2.33
+   * stories/day: .16
+* Combining all sprints, the user stories/day and ideal work hours/day figures should be reported
+   * hours/day: 2.18
+   * stories/day: 0.19

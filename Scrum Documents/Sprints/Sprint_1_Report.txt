@@ -1,0 +1,32 @@
+﻿Sprint 1 Report - Min-Max-List
+Team Name: The Scribes 
+Date: 10/22/24
+
+
+• Actions to stop doing:
+
+
+I think the team is satisfied with the current process because it holds us accountable at every meeting and gives us some time to get some work done with the whole team present.
+• Actions to start doing:
+
+The team should reassess how many points we can get done or the volume of tasks in the sprint since we didn’t hit a lot of points this sprint.
+• Actions to keep doing:
+
+Continue using Trello Board and providing documentation towards code. 
+• Work completed/not completed: 
+* Completed
+   * As a user, I want to be able to manipulate my tasks to accurately track what I need to do. [8]
+* Not Completed
+   * As a user, I want to be able to log in to the website so that I can keep my information personalized. [8]
+
+
+• Work completion rate: This section should report the following: total number of user  stories completed during the prior sprint. Total number of estimated ideal work hours  completed during the prior sprint. Total number of days during the prior sprint. For the  previous sprint, the user stories/day and ideal work hours/day figures should be reported.  For sprints past the first sprint, this section should also provide the average user  stories/day and average ideal work hours/day figures computed across all sprints to date.  The final sprint burnup chart for the previous sprint should be available for viewing in the  lab and an email of this chart sent to the TA/prof.
+*  Total number of user  stories completed during the prior sprint
+   * 1
+* Total number of estimated ideal work hours completed during the prior sprint
+   * 15
+* Total number of days during the prior sprint.
+   * 13
+* For the previous sprint, the user stories/day and ideal work hours/day figures should be reported
+   * hours/day: 1.15
+   * stories/day: .07

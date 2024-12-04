@@ -1,0 +1,33 @@
+﻿Sprint 4 Report - Min-Max-List
+Team Name: The Scribes 
+Date: 12/03/24
+• Actions to stop doing:
+* Skipping meetings
+* Breaking main branch
+• Actions to start doing:
+* Last sprint 
+• Actions to keep doing:
+* Using discord as a main communication channel
+* Using two repositories
+* Creating separate components for new features
+• Work completed/not completed: 
+* Completed
+   * As a user I want to be able to search for tasks [4]
+   * As a user I want to be able to have detailed information related to tasks [4]
+   * As a user I want to see a summary about my progress on tasks [4]
+   * As a user, I want to ask the AI to recommend steps for completing tasks [13]
+* Not Completed
+   * N/A
+• Work completion rate:
+*  Total number of user  stories completed during the prior sprint
+   * 4
+* Total number of estimated ideal work hours completed during the prior sprint
+   * 32
+* Total number of days during the prior sprint.
+   * 12
+* For the previous sprint, the user stories/day and ideal work hours/day figures should be reported
+   * hours/day: 2.6
+   * stories/day: .3
+* Combining all sprints, the user stories/day and ideal work hours/day figures should be reported
+   * hours/day: 2.3
+   * stories/day: 0.24

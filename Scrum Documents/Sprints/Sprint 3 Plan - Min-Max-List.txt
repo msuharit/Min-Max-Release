@@ -1,0 +1,100 @@
+﻿Sprint 3 Plan - Min-Max-List
+Team Name: The Scribes 
+Sprint completion: 11/19/24
+Revision Date: 11/05/24
+Revision Number: 1
+∙ Goal: Short, 1-2 sentence description of the high-level goal(s) for the sprint. 
+* Have multiple options for seeing Todo lists, such as items due today or items due in the next week, the ability to categorize lists through making custom lists. This may include priority items as well. 
+∙ Task listing, organized by user story: This section lists the user stories, in priority order from  most important (top) to least important (bottom). Within each user story, there needs to be a  list of tasks required to implement the user story, along with the time estimate for each task (preferably less than or equal to 6 ideal hours). This should look like: 
+As a user, I want multiple to do lists to categorize and filter tasks so that I can be more organized [5]
+* Create backend implementation of tasks linking to a todolist name  (5 hours)
+* Create frontend being able to route to multiple to-do lists  (3 hours)
+* Specialized todo lists that show filter tasks by due date, alarm time, etc (3 hours)
+Total for user story 1: 11 hours
+  
+
+
+
+
+
+As a user, I want to be able to schedule when a task should be completed by and be penalized if I don't have it finished [5]
+* Add to schema task_schedule_time (30 min)
+* If a task is incomplete by a set time it will show up as red on front end (2 hours)
+* Have a todolist dedicated to showing thats that scheduled due (4 hours )
+* Have a todolist dedicated to showing past due (4 hours)
+* If a task is overdue on a day it will make it red color on the graph (1 hours)
+Total for user story 2: 11.5 hours
+
+
+As a user, I want to be rewarded for completing tasks [5] 
+* Trophy system for completing streaks of tasks (daily or weekly) (3 hours)
+* Picture (1 hours)
+* Confetti (2 hours)
+* Sound effects for completing task (1 hours)
+Total for user story 3: 7 hours
+Team roles: 
+Jin: Product Owner {Software Engineer}
+Ben: Software Engineer
+Pujitha: Software Engineer {Third Scrum Master}
+Aniqa: Software Engineer
+Matthew: Software Engineer
+
+
+Initial task assignment: 
+Jin: Finish merging alarm backend with user id backend
+Matthew: Add to schema task_schedule_time
+Pujitha: Sound for alarm 
+Aniqa: 
+Ben: Set states for each separate todolist
+* Store what to do list you are currently looking at in the frontend
+   * When a new state is added make a button that automatically changes the state to the button’s
+* [Stateofpossiblelists] [CurrentList]
+* Create a new list
+* Go to a list
+   * Which will set the current list as the state selected
+∙ Initial burnup chart:
+  
+
+∙ Initial scrum board: Also known as a task board, the scrum board is a physical board labeled  as such with sprint number and project name and located in the lab. This board has four  columns, titled user stories, tasks not started, tasks in progress, and tasks completed. Index  cards or post-it notes representing the user stories and the tasks for this sprint should be placed  in the user stories, tasks not started, and tasks in progress columns. Tasks associated with a user  story should be placed in the same row as the user story.
+Scrum Board
+User Stories
+	Tasks not started
+	Tasks in progress
+	Tasks completed
+	As a user, I want multiple to do lists to categorize and filter tasks so that I can be more organized [5]
+	* Create backend implementation of tasks linking to a todolist name
+* Create frontend being able to route to multiple to-do lists
+* Specialized todo lists that show filter tasks by due date, alarm time, etc
+* Be able to create new state for todolist
+	Be able to set current state for todolist
+	
+
+	As a user, I want to be able to schedule when a task should be completed by and be penalized if I don't have it finished [5]
+	* If a task is incomplete by a set time it will show up as red on front end
+* Have a todolist dedicated to showing thats that scheduled due
+* Have a todolist dedicated to showing past due
+	Add to schema task_schedule_time
+
+
+	
+
+	As a user, I want to be rewarded for completing tasks [5]
+	* Trophy system for completing streaks of tasks (daily or weekly)
+* Picture 
+* Confetti 
+* Sound effects for completing task
+
+
+	
+
+
+
+	
+
+
+
+	
+
+∙ Scrum times: List at least the three days and times during the week when your team will meet  and conduct Scrum meetings. Also, indicate which of these meetings will have the TA/tutor visit  as arranged with the TA/tutor. It is expected the TA/tutor will visit during the Scrum meeting  during your lab time. 
+* Tuesday, Thursday: 7:00PM - 7:15PM
+* Sunday: 8:00PM-8:15PM

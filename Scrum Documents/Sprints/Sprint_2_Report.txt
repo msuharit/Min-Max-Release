@@ -1,0 +1,30 @@
+﻿Sprint 2 Report - Min-Max-List
+Team Name: The Scribes 
+Date: 11/05/24
+• Actions to stop doing:
+* Delaying until the last minute to get tasks done
+* Showing up late
+• Actions to start doing:
+* Regularly attend scrum meetings. Attend scrum meetings on time. 
+• Actions to keep doing:
+* Giving ideas for project
+* Using Discord as a communication hub
+• Work completed/not completed: 
+* Completed
+   * As a user, I want to be able to log in to the website so that I can keep my information personalized. [3]
+   * As a user, I want to be able to manipulate my tasks to accurately track what I need to do. [3]
+   * As a user, I want to see a graph visualization of my completed, opened, and unfinished tasks so that I can have better habits in completing tasks. [13] 
+   * As a user, I want to receive updates when I don’t finish tasks in time, so that I am motivated to complete current tasks and finish future tasks. [3]
+• Work completion rate:
+*  Total number of user  stories completed during the prior sprint
+   * 4
+* Total number of estimated ideal work hours completed during the prior sprint
+   * 40
+* Total number of days during the prior sprint.
+   * 13
+* For the previous sprint, the user stories/day and ideal work hours/day figures should be reported
+   * hours/day: 3.08
+   * stories/day: .28
+* Combining all sprints, the user stories/day and ideal work hours/day figures should be reported
+   * hours/day: 2.12
+   * stories/day: 0.18
