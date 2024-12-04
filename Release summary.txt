@@ -1,4 +1,6 @@
-﻿CSE 115A – Introduction to Software Engineering Release Summary 
+﻿google doc: https://docs.google.com/document/d/14uPr4wKY5T9JXQBRzt-CUamKJVvHQ2DvNu86phPjbo8/edit?usp=sharing
+
+CSE 115A – Introduction to Software Engineering Release Summary 
 The Release Summary document contains the following elements: 
   
 Heading: Document name ("Release Summary"),productname, team name, date. 

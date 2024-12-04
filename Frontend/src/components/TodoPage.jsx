@@ -185,6 +185,7 @@ const TodoPage = () => {
     const handleUpdateDesc = async (task_id, task_desc) => {
         const task = await readTaskAtId(task_id)
         await updateTask(task.task_id, task.task_uid, { ...task, task_desc: task_desc });
+        setViewDetails(prev => (prev && prev.task_id === task_id ? { ...prev, task_desc } : prev));
         handleReadTasks(userUid);
     };
 
@@ -256,7 +257,7 @@ const TodoPage = () => {
 return (
     <div>
 
-        <DetailedView task={viewDetails}></DetailedView>
+        <DetailedView task={viewDetails} onUpdateTask={handleUpdateDesc}></DetailedView>
         <ToastContainer position="top-right flex" />
         <div className="app-container" onClick={hideContextMenu}>
 

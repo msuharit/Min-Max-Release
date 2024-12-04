@@ -1,4 +1,6 @@
-﻿Test Plan and Report  
+﻿google doc: https://docs.google.com/document/d/1r2nWUPGzJDPS-amdFbZ6oCCovtoLCzcv2FP35PjI3PU/edit?usp=sharing
+
+Test Plan and Report  
 Product Name: Min-Max-List
 Team Name: The Scribes
 Date: 12/3/2024

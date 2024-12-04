@@ -1,0 +1,11 @@
+Definition of Done:
+Peer reviewed 
+Pushed on github
+
+Style guide:
+Backend 
+Snake case for backend
+Frontend
+Pascal case for classes and components
+Camel case for variable names and functions
+Splitting features into components when available 
